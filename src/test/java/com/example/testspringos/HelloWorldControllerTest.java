@@ -48,7 +48,7 @@ public class HelloWorldControllerTest {
                 .andExpect(content().json(expectedResponse));
     }
 
-    @Test
+    @Test()
     public void testPostMethodNameMissingUsername() throws Exception {
         String requestBody = """
             {
